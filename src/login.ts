@@ -64,12 +64,10 @@ async function validateLogin() {
             }
                         
         }       
-         
         // console.log(userdetail);        
-              
     }    
     
- }
+}
 
 // form trigger
 document.getElementById('loginform')!.addEventListener("submit", (event) => {
