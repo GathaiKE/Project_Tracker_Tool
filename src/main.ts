@@ -21,7 +21,7 @@ async function renderoverview() {
   let pendingProjects = projects.filter(
     (project: any) => project.status === "pending"
   );
- 
+
   let html = `
   <div class="card">
   <div class="logo" style="display: grid;">

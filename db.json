@@ -1,40 +1,45 @@
 {
   "users": [
-    {
-      "username": "mickeydee",
+  {
+      "username": "Brian Gathai",
       "password": "mdpassword",
+      "pfpimg":"https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?cs=srgb&dl=pexels-mohamed-abdelghaffar-771742.jpg&fm=jpg",
       "id": 1
-    },
-    {
-      "username": "mcdonalds",
-      "password": "mcpassword",
+  },
+  {
+      "username": "John Mwaniki",
+      "password": "mdpassword",
+      "pfpimg":"https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?cs=srgb&dl=pexels-mohamed-abdelghaffar-771742.jpg&fm=jpg",
       "id": 2
-    },
-    {
-      "username": "admin",
-      "password": "adpassword",
+  },
+  {
+      "username": "George Githaiga",
+      "password": "mdpassword",
+      "pfpimg":"https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?cs=srgb&dl=pexels-mohamed-abdelghaffar-771742.jpg&fm=jpg",
       "id": 3
-    },
-    {
-      "username": "john",
-      "password": "password",
-      "id": 4
-    }
+  }
   ],
-  "Projects": [
-    {
-      "projectname": "testname",
-      "projectdescription": "test description",
-      "assigneduser": "john",
-      "status": "completed",
-      "id": 33
-    },
-    {
-      "projectname": "testname",
-      "projectdescription": "test description",
-      "assigneduser": "mcdonalds",
-      "status": "pending",
-      "id": 34
-    }
+  "project": [
+      {
+          "projectname": "Project1",
+          "projectId": 1,
+          "projectdescroption":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quaerat?",
+          "projectStatus":"complete",
+          "id": 1
+      },
+      {
+          "projectname": "Project2",
+          "projectId": 2,
+          "projectStatus":"pending",
+          "projectdescroption":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quaerat?",
+          "id": 2
+      },
+      {
+          "projectname": "Project3",
+          "projectId": 3,
+          "projectdescroption":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quaerat?",
+          "projectStatus":"complete",
+          "id": 3
+      }
   ]
 }
